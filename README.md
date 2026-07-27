@@ -19,20 +19,24 @@
 <h2 data-heading="SYSTEM REQUIREMENTS &#x26; WORKFLOW">SYSTEM REQUIREMENTS &#x26; WORKFLOW</h2>
 <h3 data-heading="Tested Platform">Tested Platform</h3>
 <p>AKA has been tested on <strong>Windows 11 x64</strong>. It should work on Windows 10 x64 as well.</p>
+
 <h3 data-heading="Prerequisites">Prerequisites</h3>
-<p>Before using AKA, install these system components:</p>
-<ul>
-<li><strong>Python 3.11+</strong> — download from python.org. AKA detects installed Python versions automatically.</li>
-<li><strong>CUDA Toolkit</strong> — if you have an NVIDIA GPU. AKA can download it for you (MAiN tab > DOWNLOAD > CUDA).</li>
-<li><strong>cuDNN</strong> — required for GPU acceleration. AKA can download it (MAiN tab > DOWNLOAD > cuDNN).</li>
-<li><strong>Git</strong> — required for cloning ComfyUI and custom nodes. AKA can download it (MAiN tab > DOWNLOAD > GIT).</li>
-</ul>
-<p>You can install all prerequisites manually or use the DOWNLOAD section in the MAiN tab — AKA will download the installers to <code>bin/downloads/</code>. Run each installer after downloading.</p>
-<h3 data-heading="Recommended Workflow">Recommended Workflow</h3>
-<p><strong>1. Install prerequisites.</strong><br>
-Make sure Python, CUDA, cuDNN, and Git are installed and available in your system PATH.</p>
-<p><strong>2. Create a clean ComfyUI installation through AKA.</strong><br>
-In the MAiN tab, set an empty folder as the PATH, then click CLONE. AKA will clone the latest ComfyUI from GitHub. This ensures you start with a clean, known-good installation without legacy files or conflicting dependencies.</p>
+
+Before using AKA, install these system components:
+
+**Python 3.11+**  — download from [python.org](https://python.org/). During installation, check the box **"Add Python to PATH"** — this is important. AKA detects installed Python versions automatically. For maximum flexibility when creating virtual environments, consider installing multiple Python versions (e.g. 3.11, 3.12, 3.13). AKA will let you choose which one to use for each venv.
+    
+**Git** — required for cloning ComfyUI and custom nodes. Download from [git-scm.com](https://git-scm.com/). AKA can also download it for you (MAiN tab > DOWNLOAD > GIT).
+    
+That's it. NVIDIA drivers are assumed to be already installed. CUDA Toolkit and cuDNN are **not required** — PyTorch includes its own CUDA libraries.
+
+**Recommended Workflow**
+
+**1. Install prerequisites.**  
+Install Python (with "Add Python to PATH" checked) and Git.
+
+**2. Create a clean ComfyUI installation through AKA.**  
+In the MAiN tab, set an empty folder as the PATH, then click CLONE. AKA will clone the latest ComfyUI from GitHub. This ensures you start with a clean, known-good installation without legacy files or conflicting dependencies.
 <p><strong>3. Create a virtual environment.</strong><br>
 Go to the VENVs tab, click CREATE. AKA detects your GPU, driver, and CUDA version and suggests the best matching PyTorch build. Select a version from the list or enable <strong>MANUAL INPUT</strong> to enter a custom pip command. <strong><em>Example for a manual PyTorch install:</em></strong> </p>
 <pre><code>torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
