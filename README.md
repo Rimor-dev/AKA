@@ -54,12 +54,12 @@ Create multiple venvs with different PyTorch or CUDA versions. Switch between th
 Data | Location
 -- | --
 AKA executable | bin/AKA.exe (or AKA_Launcher.exe in root)
-Settings | bin/settings.json (public), internal state in Windows registry
-ComfyUI path | bin/config.ini
-Downloaded installers | bin/downloads/
-Wheel files | wheels/
+Settings | C:\Users\%Username%\AppData\Roaming\AKA\settings.json (public), internal state in Windows registry
+ComfyUI path | C:\Users\%Username%\AppData\Roaming\AKA\config.ini
+Downloaded installers | C:\Users\%Username%\Downloads\AKA_downloads
+Wheel files | C:\Users\%Username%\AppData\Roaming\AKA\wheels
 Node maps | profiles/
-Browser data | bin/akamfy_data/
+Browser data | C:\Users\%Username%\AppData\Roaming\AKA\akamfy_data\
 
 
 <h3 data-heading="Notes">Notes</h3>
