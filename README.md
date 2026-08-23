@@ -2,8 +2,7 @@
 <body>
 <!--StartFragment--><!-- obsidian --><h1 data-heading="AKA — ComfyUI Advanced Manager">AKA — ComfyUI Advanced Manager</h1>
 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_f.png" alt="main" width="70%"> 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_air.png" alt="main" width="70%">
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/akacover.png" alt="main" width="90%">
 
 <h2 data-heading="WHY AKA">WHY AKA</h2>
 <p>ComfyUI has no built-in environment manager. Users must manually create venvs, install PyTorch, manage custom nodes, and juggle multiple Python configurations. AKA solves all of this with a single integrated interface.</p>
@@ -21,6 +20,7 @@
 <li><strong>Configuration pain</strong> — AKATOOLS external editor for paths.json and settings.json with UI.</li>
 </ul>
 <p>AKA is a standalone executable. No Python required. No dependencies to install. Download, run, work.</p>
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_f.png" alt="main" width="20%"> 
 <hr>
 <h2 data-heading="SYSTEM REQUIREMENTS &#x26; WORKFLOW">SYSTEM REQUIREMENTS &#x26; WORKFLOW</h2>
 <h3 data-heading="Tested Platform">Tested Platform</h3>
@@ -52,6 +52,8 @@ Optionally enter a description for the environment. Click INSTALL and AKA will h
 
 <strong>4. Launch ComfyUI.</strong><br>
 Select your new venv in the table, configure launch flags in LAUNCH KEYS, and click SERVER START. Monitor the output in the Server Monitor panel.
+
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_air.png" alt="main" width="30%">
 
 <strong>5. Install custom nodes.</strong><br>
 Use the NODEs tab to clone repositories, install requirements, and manage your node whitelist. AKA can run <code>requirements.txt</code> and <code>install.py</code> for any selected nodes.
