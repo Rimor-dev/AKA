@@ -2,7 +2,7 @@
 <body>
 <!--StartFragment--><!-- obsidian --><h1 data-heading="AKA — ComfyUI Advanced Manager">AKA — ComfyUI Advanced Manager</h1>
 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/akacover.png" alt="main" width="90%">
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/akacover.png" alt="main" width="100%">
 
 <h2 data-heading="WHY AKA">WHY AKA</h2>
 <p>ComfyUI has no built-in environment manager. Users must manually create venvs, install PyTorch, manage custom nodes, and juggle multiple Python configurations. AKA solves all of this with a single integrated interface.</p>
