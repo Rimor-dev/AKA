@@ -20,7 +20,7 @@
 <li><strong>Configuration pain</strong> — AKATOOLS external editor for paths.json and settings.json with UI.</li>
 </ul>
 <p>AKA is a standalone executable. No Python required. No dependencies to install. Download, run, work.</p>
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_f.png" alt="main" width="20%"> 
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_f.png" alt="main" width="44%"> 
 <hr>
 <h2 data-heading="SYSTEM REQUIREMENTS &#x26; WORKFLOW">SYSTEM REQUIREMENTS &#x26; WORKFLOW</h2>
 <h3 data-heading="Tested Platform">Tested Platform</h3>
@@ -53,7 +53,7 @@ Optionally enter a description for the environment. Click INSTALL and AKA will h
 <strong>4. Launch ComfyUI.</strong><br>
 Select your new venv in the table, configure launch flags in LAUNCH KEYS, and click SERVER START. Monitor the output in the Server Monitor panel.
 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_air.png" alt="main" width="30%">
+<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_air.png" alt="main" width="46%">
 
 <strong>5. Install custom nodes.</strong><br>
 Use the NODEs tab to clone repositories, install requirements, and manage your node whitelist. AKA can run <code>requirements.txt</code> and <code>install.py</code> for any selected nodes.
