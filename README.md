@@ -17,6 +17,8 @@
    - offer to convert a portable install or pick up an existing one;
    - create a venv with the right PyTorch for your GPU.
 
+Portable ComfyUI conversion. If the wizard finds a portable ComfyUI install, it can convert it into a fully managed environment — keeping your models, workflows and custom nodes intact while creating a proper Python venv with the correct PyTorch build. python_embeded and old .bat launchers are left in place; you can delete them manually after conversion.
+
 Nothing to configure by hand. If Git/Python can't be installed (no internet) — the wizard shows a FATAL screen with instructions and a RETRY button.
 
 > **Requires:** Windows 10/11 x64, NVIDIA drivers. CUDA Toolkit and cuDNN are not needed — PyTorch ships its own libraries.
