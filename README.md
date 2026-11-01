@@ -1,6 +1,6 @@
 # AKA — Advanced Shell for ComfyUI
 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/akacover.png" alt="main" width="100%">
+<img src="GitAssets/startandplay.gif" alt="main" width="100%">
 
 **Advanced Shell — a single shell for ComfyUI.** Creates and switches environments, installs PyTorch matched to your GPU, manages nodes, models and workflows, embeds ComfyUI right into the interface, and monitors the server in real time. Standalone exe. No Python on the host. Download — run — work.
 
@@ -43,7 +43,7 @@ Nothing to configure by hand. If Git/Python can't be installed (no internet) —
 
 ## 🖥 WHAT IT LOOKS LIKE
 
-<img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_f.png" alt="main" width="44%"> <img src="https://github.com/Rimor-dev/my-assets_/blob/main/assets/aka_air.png" alt="main" width="46%">
+<img src="GitAssets/akazoom.png" alt="main" width="50%">
 
 Three vertical panels:
 - **Left** — progress, server log, hardware, server control, AKAMFY bar.
