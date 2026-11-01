@@ -43,6 +43,7 @@ Nothing to configure by hand. If Git/Python can't be installed (no internet) —
 
 ## 🖥 WHAT IT LOOKS LIKE
 
+<img src="GitAssets/akaui.png" alt="main" width="50%">
 <img src="GitAssets/akazoom.png" alt="main" width="50%">
 
 Three vertical panels:
