@@ -98,7 +98,7 @@ System Python is not touched — everything is installed inside the venv in the 
 - **Telegram:** [@Rimor_Spectator](https://t.me/Rimor_Spectator)
 - **GitHub:** [github.com/Rimor-dev](https://github.com/Rimor-dev)
 
-Free, open-source project for the ComfyUI community.
+Free project for the ComfyUI community.
 
 ---
 
