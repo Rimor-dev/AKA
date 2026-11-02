@@ -99,7 +99,3 @@ System Python is not touched — everything is installed inside the venv in the 
 - **GitHub:** [github.com/Rimor-dev](https://github.com/Rimor-dev)
 
 Free project for the ComfyUI community.
-
----
-
-Готово. Если захочешь ещё короче — скажи, срежу «Where things live» и «Notes» до двух строк, оставив только установку, новинки и сценарий.
